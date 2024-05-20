@@ -9,6 +9,6 @@ book_flight() {
             echo -e "$username - $phone - $flight_number - NOTCONFIRMED\n" >> "$bookings_file"
             echo "Flight Booked Successfully"
         else
-            echo "File NOT FOUND ."
+            echo "File not found"
         fi
     fi
